@@ -1,0 +1,16 @@
+% 
+\documentclass{article}
+\begin{document}
+hello, world
+\end{document}
+
+% author/title/comment
+\documentclass{article}
+\author{My Name}
+\title{The Title}
+\begin{document}
+\maketitle
+hello, world            % This is comment
+\end{document} 
+
+% sections/paragraphs
