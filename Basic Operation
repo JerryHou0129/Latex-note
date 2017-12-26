@@ -14,3 +14,40 @@ hello, world            % This is comment
 \end{document} 
 
 % sections/paragraphs
+\documentclass{article}
+\title{Hello World}
+\begin{document}
+\maketitle
+\section{University of Melbourne} UoM is one of the best university in the world
+\subsection{Science} Science is one of the faculty of university
+\subsubsection{Computer Science}
+\paragraph{Computer Science}is the most interesting course                     % with \paragraph, we can edit the font/size of the
+\subparagraph{Algorithm} is one of the core subjects                           % paragraph. In this case, {Algorithm} is bold
+\subsection{Learning algorithm with C}
+\paragraph{C language} is essential and basis for computer science student
+\end{document} 
+
+% catalog
+\documentclass{article}
+\begin{document}
+\tableofcontents
+\section{University of Melbourne} UoM is one of the best university in the world
+\subsection{Science} Science is one of the faculty of university
+\subsubsection{Computer science}   
+\paragraph{Computer Science}is the most interesting course
+\subparagraph{Algorithm} is one of the core subjects
+\end{document} 
+
+% newline
+\documentclass{article}
+\begin{document}
+As we know,
+
+Mechanical Engineering
+is one of the major                                                     % Space is sensentive in latex, \\ stands for newline
+
+in Science
+
+Computer Science is \\ also a\\
+major of Science
+\end{document} 
